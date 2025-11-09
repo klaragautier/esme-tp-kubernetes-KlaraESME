@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: esme-config
+  namespace: esme-tp-klaraesme
+data:
+  APP_ENV: production
+  LOG LEVEL: info
+  MESSAGE: "Deployé par Klara"
